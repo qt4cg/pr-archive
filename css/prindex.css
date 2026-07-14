@@ -1,0 +1,37 @@
+html {
+    font-size: 16pt;
+}
+
+.pr {
+    border-top: 1px solid #888888;
+    margin-top: 1rem;
+}
+
+.headline {
+    background-color: #f8f8f8;
+    padding-top: 0.5rem;
+}
+
+.headline .title {
+    display: inline-box;
+}
+
+.headline .labels {
+    display: inline-box;
+    float: right;
+    padding-right: 2rem;
+    font-size: 12pt;
+}
+
+.labels span {
+    font-family: monospace;
+    border: 1px solid rgb(221,221,221);
+    border-radius: 6px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    margin: 0;
+    font-size: 85%;
+
+}
