@@ -43,7 +43,7 @@ for pr in prs:
     print("<div class='pr'>")
     print("<div class='headline'>")
     print(f"<span class='title'><a href='https://github.com/qt4cg/qtspecs/pull/{pr}'>{pr}</a>")
-    print(f"<a href='pr/{pr}/'>{escape(issues[pr]['title'])}</a>")
+    print(f"<a href='pr/{pr}/index.html'>{escape(issues[pr]['title'])}</a>")
     print("</span>")
     print("<span class='labels'>")
     for label in issues[pr]["labels"]:
